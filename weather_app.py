@@ -9,7 +9,7 @@ city = st.text_input("Enter a city name:")
 
 if st.button("Get Weather"):
     if city:
-        api_key = "ddaf578b6644786504b664833f77b8f1"  # replace with your real API key
+        api_key = "cdbe78027bcdaa22d504f99b6981ff5e"  # replace with your real API key
         url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
 
         response = requests.get(url)
